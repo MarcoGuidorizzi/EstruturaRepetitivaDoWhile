@@ -38,3 +38,26 @@ Deseja repetir (s/n)? s
 Digite a temperatura em Celsius: 21.0
 Equivalente em Fahrenheit: 69.8
 Deseja repetir (s/n)? n
+
+🛠️ Tecnologias
+Linguagem: C#
+
+Plataforma: .NET 10
+
+Versionamento: Git
+
+▶️ Como Executar
+# Clone o repositório
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+# Acesse a pasta do exercício
+cd ExercicioTemperatura
+
+# Execute o projeto
+dotnet run
+
+📁 Estrutura do Projeto
+ExercicioTemperatura/
+├── Program.cs
+├── ExercicioTemperatura.csproj
+└── README.md
