@@ -1,21 +1,21 @@
 # 🌡️ Exercício — Conversor de Temperatura (Do-While)
 
-Programa que converte temperaturas de Celsius para Fahrenheit. O diferencial deste exercício é o uso da estrutura de repetição que permite ao usuário realizar múltiplos cálculos sem precisar reiniciar o programa manualmente.
+Programa que converte temperaturas de Celsius para Fahrenheit. O diferencial deste exercício é o uso da estrutura de repetição que permite ao usuário realizar múltiplos cálculos na mesma execução.
 
 ## 🧠 Conceitos Aplicados
 
 A principal implementação técnica deste projeto é a estrutura repetitiva "faça-enquanto":
 
-* **Estrutura Do-While:** Garante que o bloco de comandos seja executado **pelo menos uma vez**, pois a condição de repetição (`s/n`) só é verificada ao final do loop.
-* **Fórmula de Conversão:** Implementação da fórmula matemática $$F = \frac{9C}{5} + 32$$.
-* **Entrada de Dados de Caractere:** Captura da resposta do usuário (`char`) para decidir se o fluxo deve voltar ao início ou "pular fora".
-* **Formatação Numérica:** Exibição do resultado com uma casa decimal para precisão da temperatura.
+* **Estrutura Do-While:** Diferente do `while` comum, esta estrutura garante que o bloco de comandos seja executado **pelo menos uma vez**, pois a condição de repetição é verificada apenas ao final.
+* **Fórmula Matemática:** Implementação da conversão utilizando a fórmula F = (9 * C / 5) + 32.
+* **Interação com o Usuário:** Uso de uma condição de parada baseada na entrada de um caractere ('s' ou 'n').
+* **Tipos de Dados:** Uso de `double` para garantir a precisão dos cálculos de ponto flutuante.
 
 ## 📥 Entrada
 
-O programa solicita:
-1. Um valor numérico (Celsius).
-2. Um caractere ('s' para sim, 'n' para não) para decidir a repetição.
+O programa solicita os seguintes dados:
+1. Um valor numérico representando a temperatura em Celsius.
+2. Um caractere ('s' para sim, 'n' para não) indicando se o usuário deseja repetir o processo.
 
 | Dado | Exemplo |
 | :--- | :--- |
@@ -24,7 +24,7 @@ O programa solicita:
 
 ## 📤 Saída
 
-O equivalente da temperatura em Fahrenheit:
+O equivalente da temperatura calculada em Fahrenheit:
 
 `Equivalente em Fahrenheit: 86.0`
 
@@ -37,16 +37,16 @@ Deseja repetir (s/n)? s
 
 Digite a temperatura em Celsius: 21.0
 Equivalente em Fahrenheit: 69.8
-Deseja repetir (s/n)? n`
-
-## 🛠️ Tecnologias
+Deseja repetir (s/n)? n
+🛠️ Tecnologias
 Linguagem: C#
 
 Plataforma: .NET 10
 
 Versionamento: Git
 
-## ▶️ Como Executar
+▶️ Como Executar
+Bash
 # Clone o repositório
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 
@@ -56,7 +56,8 @@ cd ExercicioTemperatura
 # Execute o projeto
 dotnet run
 
-## 📁 Estrutura do Projeto
+📁 Estrutura do Projeto
+Plaintext
 ExercicioTemperatura/
 ├── Program.cs
 ├── ExercicioTemperatura.csproj
